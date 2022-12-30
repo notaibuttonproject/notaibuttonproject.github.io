@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<html>
+  <head>
+    <title>Button with Random Styles by ChatGRT</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.png">
+    <style>
+      html {
+        background: #000;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 93vh;
+      }
+      .park {
+        position: fixed;
+        bottom: 10px;
+      }
+      .park:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+      .button {
+        display: inline-block;
+        padding: 0.5em 1em;
+        border: 1px solid black;
+        border-radius: 100px;
+        background-color: white;
+        color: black;
+        font-family: Arial;
+        font-size: 56px;
+        line-height: 1.5;
+        cursor: pointer;
+        user-select: none;
+        margin-top: -5%;
+      }
+      .button:hover {
+        cursor: pointer;
+        transform: scale(0.95);
+      }
+      .bounce {
+        animation: bounce 0.1s ease-in-out;
+      }
+      @keyframes bounce {
+        from {
+          transform: scale(0.7);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
+      .credits {
+        position: fixed;
+        font-size: 20px;
+        right: 20px;
+        color: #fff;
+        font-family: Arial;
+        line-height: 120%;
+        text-align: right;
+        bottom: -10px;
+      }
+      .containertext {
+        font-family: Arial;
+        font-size: 2em;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        justify-content: center;
+        position: fixed;
+        line-height: 120%;
+      }
+    </style>
+  </head>
+  
+  <body>
+  <div class="containertext">
+    Just simply don't press the button and that's it, ok? We spend a lot of time to make it with ChatGPT. So just don't press. Don't. Press.
+  </div>
+  <div class="container">
+    <div class="buttonfuzzy"><div class="button">Don't press!</div></div>
+  </div>
+  <a href="https://intuition.news/park2022" target="_blank"><img src="park-logo.svg" loading="lazy" alt="park-logo" class="park"></a>
+  <div class="credits">
+    <p>ChatGTP<br>×<br>KnopkoTeam<br>✌︎<br>2022</p>
+  </div>
+  <script src="button.js"></script>
+</body></html>
